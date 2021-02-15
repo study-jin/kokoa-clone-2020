@@ -24,16 +24,16 @@
   border: none;
   padding: 15px 0;
   font-size: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--main-border);
   margin-bottom: 25px;
 }
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--main-border);
   transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--subtitle-color);
 }
 
 #login-form input:focus {
